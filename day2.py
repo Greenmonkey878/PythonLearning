@@ -9,3 +9,26 @@ print(type(num_char))
 new_num_char = str(num_char)
 print("Your name has " + new_num_char + " characters.")
 print(type(new_num_char))
+
+#Exercise one========================================
+two_digit_number = input("Type a two digit number: ")
+print(type(two_digit_number))
+
+num_one = two_digit_number[0] #num_one = int(two_digit_number[0])
+num_two = two_digit_number[1] #num_two =  int(two_digit_number[1])
+
+result = int(num_one) + int(num_two) #result = num_one + num_two
+print(result)
+
+#Exercise two========================================
+weight = input("How much do you weigh in pounds? ")
+height = input("How tall are you in inches? ")
+
+weight = float(weight) # convert weight to a floating-point number
+height = float(height) # convert height to a floating-point number
+
+bmi = weight * 703 / height ** 2
+bmi_int = int(bmi) # convert bmi to an integer
+print (bmi_int)
+
+#Exercise three=====================================
