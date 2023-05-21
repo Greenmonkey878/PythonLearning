@@ -32,3 +32,17 @@ bmi_int = int(bmi) # convert bmi to an integer
 print (bmi_int)
 
 #Exercise three=====================================
+age = (input("What is your current age?\n"))
+
+age_int = int(age)
+years_remaining = 90 - age_int
+days_left = years_remaining * 365
+weeks_left = years_remaining * 52
+months_left = years_remaining * 12
+
+print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
+
+
+
+
+
