@@ -81,3 +81,35 @@ if extra_cheese == "Y":
 
 else:
     print(f"Your final bill is: ${bill}")
+
+#==============Exercise 5====================
+print("Welcome to the love Calculator!")
+name1 = input("What is your name?\n")
+name2 = input("What is their name?\n")
+
+combined_name= name1 + name2
+
+lower_case_one = combined_name.lower()
+t=lower_case_one.count("t")
+r=lower_case_one.count("r")
+u=lower_case_one.count("u")
+e=lower_case_one.count("e")
+
+true = t+r+u+e
+
+l=lower_case_one.count("l")
+o=lower_case_one.count("o")
+v=lower_case_one.count("v")
+e=lower_case_one.count("e")
+
+love = l+o+v+e
+
+love_score =int(str(true) + str(love))
+
+
+if (love_score < 10) or (love_score > 90):
+    print(f"Your love score is {love_score}, you go together like coke and mentos")
+elif(love_score >= 40) and (love_score <= 50):
+    print(f"Your score is {love_score}, you are alright together")
+else:
+    print(f"Your score is {love_score}") 
